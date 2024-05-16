@@ -1,0 +1,163 @@
+body {
+    background: linear-gradient(to bottom, rgba(35, 108, 36, 0.676), rgb(38, 90, 38));
+    box-shadow: rgb(100, 41, 41) 0px 1px 4px, rgb(3, 2, 2) 0px 0px 0px 3px;
+    border-radius: 18px;
+    padding-bottom: 5px;
+}
+
+.cabecalho {
+    background-color: rgb(69, 131, 7);
+    height: 80px;
+    border-radius: 18px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+
+#logo {
+    border-radius: 18px;
+    height: 80px;
+    width: auto;
+}
+
+#logo:hover {
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px, rgba(79, 203, 77, 0.763) 0px 0px 0px 6px, rgb(175, 160, 87) 0px 0px 0px 9px, rgb(137, 153, 68) 0px 0px 0px 12px, rgb(128, 68, 68) 0px 0px 0px 15px;
+}
+
+/* #carrinho { 
+     height: 50px;
+    width: auto; 
+ } */
+li {
+    display: block;
+    border: 7cap rgb(82, 158, 6);
+}
+
+.LISTABARRA {
+    position: relative;
+    display: flex;
+    align-items: normal;
+    justify-content: space-around;
+}
+
+/*
+.li1 {
+    text-align: left;
+}
+*/
+.li2 {
+    text-align: right;
+}
+
+.produtos {
+    display: inline-block;
+    border: 7px black;
+    border-radius: 15px;
+}
+
+.maca {
+    border: 15px rgb(235, 15, 15);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgb(230, 9, 9) 0px 1px 4px, rgb(161, 136, 21) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+
+.pera {
+    border: 15px rgb(255, 43, 43);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgba(32, 211, 65, 0.754) 0px 1px 4px, rgb(161, 136, 21) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+
+.banana {
+    border: 15px rgb(255, 43, 43);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgba(242, 254, 28, 0.797) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+.milho{
+    border: 15px rgb(255, 43, 43);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgb(161, 136, 21) 0px 1px 4px, rgb(220, 186, 30) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+.abobora{
+    border: 15px rgb(255, 43, 43);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgb(161, 136, 21) 0px 1px 4px, rgba(255, 153, 51, 0.808) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+.morango{
+    border: 15px rgb(255, 43, 43);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgb(161, 136, 21) 0px 1px 4px, rgba(200, 81, 77, 0.994) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+.cebolinha{
+    border: 15px rgb(255, 43, 43);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgb(161, 136, 21) 0px 1px 4px, rgba(200, 81, 77, 0.994) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+.salsinha{
+    border: 15px rgb(255, 43, 43);
+    height: 80px;
+    width: 800px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    box-shadow: rgb(161, 136, 21) 0px 1px 4px, rgba(200, 81, 77, 0.994) 0px 0px 0px 3px;
+    border-radius: 15px;  
+}
+
+input{
+    background-color: rgba(30, 122, 138, 0.743);
+    color: rgba(41, 238, 129, 0.788);
+    float: right;
+}
+
+input:hover {
+    text-emphasis-color: rgba(23, 162, 57, 0.54);
+    box-shadow: rgb(150, 127, 24) 0px 1px 4px, rgb(161, 136, 21) 0px 0px 0px 3px;
+    box-shadow: rgb(161, 136, 21) 0px -23px 25px 0px inset, rgba(161, 136, 21) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: rgb(161, 5, 141);
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
