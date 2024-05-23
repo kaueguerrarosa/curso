@@ -1,88 +1,69 @@
-<!DOCTYPE html>
+<!DOCType html>
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="sytyle(boas-vindas).css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projeto exemplo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Área de Boas-Vindas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #c4c4c4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #welcome-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            box-shadow: -1em 0 1em rgb(59, 168, 82), 15px 15px rgb(141, 141, 46);
+            box-shadow: 0 0 0 2px rgb(102, 196, 83), 8px 8px 0 0 rgb(173, 165, 89);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        #botao {
+            list-style: none;
+        }
+
+        button {
+            background-color: #93b4d8;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="carrinhocaixa">
-
-    </div>
-    <!--CABECALHO APENAS__________________________________________________________________-->
     <div class="cabecalho">
-        <div class="logo">
-            <img src="img/feira.jpg" alt="" id="logo">
-        </div>
-        <ul class="LISTABARRA">
-            <li class="li1">
-                <h3>Página inicial</h3>
-            </li>
-            <li class="li2">
-                <h3>Contato</h3>
-            </li>
-        </ul>
-        <div class="carrinho">
-            
-            <a href="last.html">
-         <img src="img/carrinho.png"  alt="" id="carrinho" onclick="mostrarcarrinho()"></a>
-        </div>
     </div>
-    <!--FIM CABECALHO______________________________________________________________________-->
-    <!--CORPO DO SITE______________________________________________________________________-->
-    <div class="peimeiro-corpo">
-        
-       
-        <ul id="produtos">
-            <li class="maca">
-                <h3>Maçã</h3>
-
-                <input type="button" id="botaomaca" value="adicionar ao carrinho" class="inputindex">
-                <p>Preço: R$8,99 o Kg</p>
-            </li>
-            <li class="pera">
-                <h3>Pera</h3>
-
-                <input type="button" value="adicionar ao carrinho" class="inputindex">
-                <p>Preço: R$9,37 o Kg</p>
-            </li>
-            <li class="banana">
-                <h3>Banana</h3>
-                <input type="button" value="adicionar ao carrinho"class="inputindex">
-                <p>Preço: R$13,28 o Kg</p>
-            </li>
-            <li class="milho">
-                <h3>Milho</h3>
-                <input type="button" value="adicionar ao carrinho"class="inputindex">
-                <p>Preço: R$15,00 o Kg</p>
-            </li>
-            <li class="abobora">
-                <h3>Abóbora</h3>
-                <input type="button" value="adicionar ao carrinho"class="inputindex">
-                <p>Preço: R$23,00 o Kg</p>
-            </li>
-            <li class="morango">
-                <h3>morango</h3>
-                <input type="button" value="adicionar ao carrinho"class="inputindex">
-                <p>Preço: R$13,96 o Kg</p>
-            </li>
-            <li class="cebolinha">
-                <h3>Cebolinha</h3>
-                <input type="button" value="adicionar ao carrinho"class="inputindex">
-                <p>Preço: R$13,96 o Kg</p>
-            </li>
-            <li class="salsinha">
-                <h3>Salsa</h3>
-                <input type="button" value="adicionar ao carrinho"class="inputindex">
-                <p>Preço: R$13,96 o Kg</p>
-            </li>
-        </ul>
+    <div id="welcome-container">
+        <h1>Bem-vindo!</h1>
+        <p id="mensagemboasvindas"> Olá para você entrar no nosso site precisamos que você logue primeiro</p>
+        <a href="emails.html">
+            <button type="submit">fazer o login</button> </a>
     </div>
-    <!--FIM DO CORPO DO SITE_______________________________________________________________-->
-    <script src="main.js"></script>
 </body>
 
 </html>
