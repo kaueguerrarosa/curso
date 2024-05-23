@@ -43,3 +43,9 @@ const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
 });
+
+
+function mostrarcarrinho(){
+    const carrinho=document.getElementById("carrinhocaixa");
+    carrinho.style.display="block";
+}

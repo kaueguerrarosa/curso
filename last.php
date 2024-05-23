@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -33,21 +34,7 @@
     </style>
 </head>
 <body>
-    <h1>Carrinho de Compras</h1>
-
-    <div id="carrinho">
-        <h2>Seu Carrinho</h2>
-        <ul id="lista-produtos">
-            <!-- Aqui serão adicionados os itens do carrinho -->
-        </ul>
-        <p>Total: R$ <span id="total">0.00</span></p>
-    </div>
-
-    <h2>Produtos Disponíveis</h2>
-    <div id="produtos">
-        <button onclick="adicionarProduto('Camisa', 20.00)">Adicionar Camisa (R$ 20.00)</button>
-        <button onclick="adicionarProduto('Calça', 30.00)">Adicionar Calça (R$ 30.00)</button>
-        <button onclick="adicionarProduto('Sapato', 50.00)">Adicionar Sapato (R$ 50.00)</button>
+    a', 50.00)">Adicionar Sapato (R$ 50.00)</button>
     </div>
 
     <script>
@@ -72,6 +59,22 @@
             const novoTotal = totalAtual + preco;
             totalElement.innerText = novoTotal.toFixed(2);
         }
-    </script>
+    </script><h1>Carrinho de Compras</h1>
+
+    <div id="carrinho">
+        <h2>Seu Carrinho</h2>
+        <ul id="lista-produtos">
+            <!-- Aqui serão adicionados os itens do carrinho -->
+        </ul>
+        <p>Total: R$ <span id="total">0.00</span></p>
+    </div>
+
+    <h2>Produtos Disponíveis</h2>
+    <div id="produtos">
+        <button onclick="adicionarProduto('banana', 20.00)">Adicionar Camisa (R$ 20.00)</button>
+        <button onclick="adicionarProduto('Abóbora', 30.00)">Adicionar Calça (R$ 30.00)</button>
+        <button onclick="adicionarProduto('Sals
 </body>
 </html>
+ 
+

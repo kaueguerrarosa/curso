@@ -10,3 +10,31 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
+
+
+button{
+    color: rgb(22, 22, 22);
+    background: linear-gradient(to bottom, rgb(214, 235, 95), rgb(38, 90, 38));
+    color: rgb(8, 8, 8);
+    border: 15px rgb(62, 107, 45);
+    box-shadow: rgb(78, 105, 35) 0px 1px 4px, rgb(94, 83, 37) 0px 0px 0px 3px;
+    border-radius: 15px;
+    margin: 6px;
+}
+button:hover {
+    color: rgb(0, 0, 0);
+    border: 15px rgb(0, 0, 0);
+    box-shadow: rgb(126, 173, 51) 0px 1px 4px, rgb(153, 132, 38) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
+
+h2{
+    color: rgb(81, 255, 0);
+}
+
+p{
+    color: rgb(0, 0, 0);
+    border: 15px rgb(189, 105, 105);
+    box-shadow: rgb(199, 223, 162) 0px 1px 4px, rgb(153, 132, 38) 0px 0px 0px 3px;
+    border-radius: 15px;
+}
